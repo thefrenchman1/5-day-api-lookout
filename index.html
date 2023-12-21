@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>5 Day Api Lookout</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+    <h1>5 Day Weather Api Lookout</h1>
+    <div class="container">
+        <div class="weather-input">
+            <label for="city-input">Enter City:</label>
+            <input id="city-input" class="city-input" type="text" placeholder="Raleigh, New York, Los Angeles" />
+            <button class="search-btn">Search</button>
+            <div class="separator"></div>
+            <div class="btn-list"></div>
+        </div>
+
+        <div class="weather-data">
+            <div class="current-weather">
+                <div class="details">
+                    <h2 id="current-city">Once I know where to look, I'll show you the 5-day lookout here!</h2>
+                    <h4 id="current-temp"></h4>
+                    <h4 id="current-wind"></h4>
+                    <h4 id="current-humidity"></h4>
+                </div>
+
+                <div class="icon">
+                    <img id="current-icon"/>
+                    <h4 id="current-main"></h4>
+                </div>
+            </div>
+            
+            <div class="days-forecast">
+                <h2>5-Day Lookout</h2>
+                <ul class="weather-cards"></ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+<footer>
+    <p class="footer">Happy Coding!</p>
+</footer>
+
+</html>
