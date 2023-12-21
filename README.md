@@ -4,7 +4,7 @@
   ## Deployed link
 
   place link here
-
+  
   ## Description
   
   This application is used to demonstrate the usage of api's and to provide a user with a 5 day forecast.
@@ -15,7 +15,7 @@
   
   * [Usage](#usage)
   
-  * [License](#license)
+* [License](#license)
 
   * [Contribution](#contribution)
   
